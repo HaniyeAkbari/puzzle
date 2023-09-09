@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main > section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main > section > img {
+  position: absolute;
+  box-shadow: 0 0 6px black;
+}
+main > section > .container {
+  width: 897px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+main > section > .container > div {
+  width: 299px;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.215);
+}/*# sourceMappingURL=master.css.map */
